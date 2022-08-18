@@ -1,0 +1,126 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="808,1024" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="672,959" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Use Browser Edge: Backup Daily - Project Editor - Apps Script" sap:VirtualizedContainerService.HintSize="630,867" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="7efda20f-8044-4186-bae8-6a1ea9703343" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="596,651" sap2010:WorkflowViewState.IdRef="Sequence_1">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Delay Duration="[TimeSpan.FromMilliseconds(5000)]" sap:VirtualizedContainerService.HintSize="554,22" sap2010:WorkflowViewState.IdRef="Delay_1" />
+            <uix:NClick ClickType="Single" DisplayName="Click 'play_arrow'" sap:VirtualizedContainerService.HintSize="554,156" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7efda20f-8044-4186-bae8-6a1ea9703343" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://script.google.com/home/projects/1oejQ_5JQfR3ZPLpeATFCzSW3WWHsE4-UrhLyMrBX24Uyn5hbqbVl_Zbi/edit" DesignTimeRectangle="311, 192, 20, 20" FriendlyName="'play_arrow'" FullSelectorArgument="&lt;webctrl aaname='play_arrow' parentid='yDmH0d' tag='I' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='play_arrow' parentid='yDmH0d' tag='I' type='' class='google-material-icons VfPpkd-kBDsod' check:innerText='play_arrow' /&gt;" Guid="3249ed9a-3705-4e8e-ac3f-ecdd66ccca62" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADMSURBVEhLY/j58+d/WuJRCwjiEWDBmTNn/69YsfL/58+fscoTwgQtOHz4yH8FRZX/IaHh/69evYpVDT5MtAUgrK6h/X/ipMn/379/j1UtNky0BWHhkWBfgNh+/oHgoPvx4wdWPciYaAtaW9v/f/z4EewDkE9UVDX+V9fU/X/27BlWfTBMkgUwsTt37vxPSEgGi9s7OP3fvXvP/+/fv6Pog2GqWLBz167/X79+Q9EHw4MniGgeySBM02RKs4xG86KCUjxqAUE81C34+R8A21plCeu5VtoAAAAASUVORK5CYII=" InformativeScreenshot="6af26e0b33b3cecbcd1aedd32ff6c6ce.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Backup Daily - Project Editor - Apps Script' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Execution completed'" sap:VirtualizedContainerService.HintSize="554,300" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="7efda20f-8044-4186-bae8-6a1ea9703343" Timeout="120" Version="V1">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="250,84" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="250,84" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="https://script.google.com/home/projects/1oejQ_5JQfR3ZPLpeATFCzSW3WWHsE4-UrhLyMrBX24Uyn5hbqbVl_Zbi/edit" DesignTimeRectangle="478, 489, 896, 33" ElementType="Text" FriendlyName="'Execution completed'" FullSelectorArgument="&lt;webctrl aaname='Execution completed' parentid='yDmH0d' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Execution completed' parentid='yDmH0d' tag='DIV' type='' class='BjuRcd lNXgjb' check:innerText='Execution completed' /&gt;" Guid="4368b618-b224-4e47-8b33-61cf6cb262c7" ImageBase64="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" InformativeScreenshot="9a176ab4eb969207302a78e9e4df098b.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Backup Daily - Project Editor - Apps Script' /&gt;" SearchSteps="FuzzySelector" Visibility="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1382, 744" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAASsSURBVFhH7ZZrTJtVHMarS1vmzJZozIhZYqJRP2wfSCbXIpu0pVzKYGwsVWRsajYv0UXxw/zAui0DOm5DZ7zEJSy4BDPcwCm6C2spW0eCwHDIZMwBgoggUEILpZf3fTzn5byT0cMm+2JMeJInaXv+Ob/n/M/peV/Fkpb0v9UOmB/eDHN+4tC7F9JhPp6OQ+FsKEj6IjyjL0WZrgTfJBTBos3HajZ0f0qDOTTOljPw3FdbIDu8OjNAft/ASm7LUAxNQglc8fluyDaUwJlQjCdZyeJFVvwhhR5u/QIDriF822tDRHWmGOfY2W2GWcnKJJFVt8cXTovft/sx5hbx5WWfFIJ0opaVLF6x1u39z5/OEgVRgKxch8VPQ2UgL4GVKZJKsZ7C9pzwBViZJNPRGUFfDCcrW7w2tO26FlG9TRibmWBTAttsuZM0QDr2fc7KFGSVBTSA6RNMB1hWlwdIKvb6yVgPK1u8yBaUSKutf8dVcbN2ZnfzgVH6nTrmXNbwfux/kNaRvb8h7/vrlXBWOuDdfmz2PJCx49JkCwktjz8Eu9oAW8gLaFl/x76S0x8tA3mmh9FgwToZzrOuDKlsumChJeo1NK70++uVoIZ9+R+wqzLYsIJ08oGYC9mDPDj1Jpg/0pXCzANT60swuaMCIWy6O4WL6qcEq1oM2FdD7DkEofs9iLYQYTaI8jNcWbOc1qVh31EenFpjzR4gLb7Gg1OTsSoJxhNsqoMUJg5/PXtqqG7t9d7uRoPqZ1KzbgvyNvLg1LG2V3t5YNnkH7CV4YKFBmW5BJq4wuhEvQe75ADSmE3pgUP9VtTZrBFeAGNHjY0HptYVi9PkElrBcMGCVZUuQX4Mm4CrdQp/1bSQMzA0N4DsvEFTIy9AyklPJw9OTf5+pxmKLyBzGWnxKR5wvvt7nm2fD9dYcwZ4YNmk/VkMtbDQuVZFtqJMsCpFHlh2wKoKRNWZnHMDJHdUNfDA1DqL36uzYBXD3FuwqZNgVQ7z4LJz+150zA2QWuv+iQenJs+FOjb1vxdsK0LJoTvPg1N3961tleHR57L/pA8eHpzaUIpX2LQLC8aNj2GTZk2Qq1bl46LKFxTCrvZFnDG5aIDEzgo7D0ytLfT6tQV4lGGChSTNTiTG/D6iDcdCRlpkF06t/G1+iLdvvdQktf87ZxsPTk1uv3qGChaMGhMFjCdrAu733/RPpsd758NlTxki3Sh4wjE3wPXBsOaouqxRnWU6QGE55IGzu8InfZZNXkLeYLhgIVlzdVQfKQZ+vSHdO6JzHJObtQuGoMbLYU04r3bRAIFLIR5j18dS+w/UYFCahOjTeq8E1xZ4hNRyhDJcsGYSoiedppR/3i6Ipj7Y4+eB5xrG6H5UPnKdhrD80nGWwuxdIE/8WbX1ClIAcvc3MhRfpANNo9pw0dc8e/0G+vswkRJ3zwDUTl2kH3ufbnTfzL1EYblVGPGTpQgiUHhmZrb9pdjFUHwhKVZHA1A7s9OEsYRIgQe7m7E1oi33GFooMO2I35tR7hHoZ+MRXM08iWUMtbCQHK0lvuw2RE6N6yMC92PSyeH+w7YfTEXTo+TUj5PWn7jr3i/pv5dC8TfIdlNyqJslzwAAAABJRU5ErkJggg==" InformativeScreenshot="5f90e95cae826570d32ccfe2f9d5fa30.png" Selector="&lt;html app='msedge.exe' title='Backup Daily - Project Editor - Apps Script' /&gt;" Url="https://script.google.com/home/projects/1oejQ_5JQfR3ZPLpeATFCzSW3WWHsE4-UrhLyMrBX24Uyn5hbqbVl_Zbi/edit" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
